@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra("aaa", inputuser);
                     startActivity(intent);
                     finish();
-                    Toast.makeText(MainActivity.this,"ยินดีต้อนรับ ",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"ยินดีต้อนรับ Pratya Phromma",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
